@@ -2,7 +2,7 @@
 
 ## Installing Apollo
 
-* `npm i apollo-client-preset react-apollo graphql-tag graphql`
+* `npm i apollo-boost react-apollo graphql-tag graphql`
  * graphql is for executing queries
  * graphql-tag is for setting them up
  * react-apollo is for interacting with react. It uses graphql underneath it
@@ -11,7 +11,7 @@
 
 ## Setting up apollo
 
-Change app.js to have the following code :
+Change index.js to have the following code :
 
 ```diff
 import React from 'react'
