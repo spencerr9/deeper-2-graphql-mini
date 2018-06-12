@@ -139,7 +139,7 @@ class Links extends Component {
 +// The second line is the query we want to call on the server
 +// The third and on is the data we're getting back with which pieces we want
 +const LINKS_QUERY = gql`
-+  query LinksQuery {
++  query linksQuery {
 +      links {
 +        id
 +        url
