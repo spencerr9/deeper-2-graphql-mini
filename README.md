@@ -108,7 +108,7 @@ type Query {
 const resolvers = {
     Query: {
         welcome: () => `Hacker News clone begins.`,
-+        links: () => links,
++        links: () => articleLinks,
     }
 }
 
@@ -172,14 +172,14 @@ let articleLinks = [{
     url: 'https://www.graphqlhub.com/',
     description: 'Some practice APIs to play around with queries'
 }]
-+let idCount = links.length
++let idCount = articleLinks.length
 
 //This object needs to match the structure of our typeDefinition Queries and Mutations
 //All values should be functions and what they return is like doing a res.send...almost
 const resolvers = {
     Query: {
         welcome: () => `Hacker News clone begins.`,
-        links: () => links,
+        links: () => articleLinks,
     },
 +    Mutation: {
 +        addLink: (root, args) => { //root is for context, args is for params coming in
