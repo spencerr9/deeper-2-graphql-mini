@@ -188,7 +188,7 @@ const resolvers = {
 +                description: args.description,
 +                url: args.url,
 +            }
-+            links.push(link)
++            articleLinks.push(link)
 +            return link //like res.send
 +        }
 +    },
