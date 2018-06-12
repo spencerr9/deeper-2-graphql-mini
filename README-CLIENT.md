@@ -120,9 +120,9 @@ import React, { Component } from 'react'
 class Links extends Component {
     render() {
 +        //linksQuery = the name we gave it below 
-+        //stream.links = this is walking into the results
++        //links = this is walking into the results
 +        //This is the same structure you see in the query we built below
-+        const data = this.props.linksQuery.stream.links
++        const data = this.props.linksQuery.links
 
         return (
             <div>{data.map(link => (
@@ -140,13 +140,11 @@ class Links extends Component {
 +// The third and on is the data we're getting back with which pieces we want
 +const LINKS_QUERY = gql`
 +  query LinksQuery {
-+    stream {
 +      links {
 +        id
 +        url
 +        description
 +      }
-+    }
 +  }
 +`
 
