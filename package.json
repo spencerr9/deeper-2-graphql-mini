@@ -1,0 +1,27 @@
+{
+  "name": "deeper-2-graphql-mini",
+  "version": "1.0.0",
+  "description": "## The shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerr9/deeper-2-graphql-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerr9/deeper-2-graphql-mini/issues"
+  },
+  "homepage": "https://github.com/spencerr9/deeper-2-graphql-mini#readme",
+  "dependencies": {
+    "apollo-boost": "^0.1.14",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "graphql-yoga": "^1.16.1",
+    "react-apollo": "^2.1.11"
+  }
+}
